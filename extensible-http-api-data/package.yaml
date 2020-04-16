@@ -1,0 +1,20 @@
+defaults:
+  local: ../base.yaml
+
+name:                extensible-http-api-data
+version:             0.1.0
+license:             MIT
+author:              MATSUBARA Nobutada
+maintainer:          t12307043@gunma-u.ac.jp
+copyright:           MATSUBARA Nobutada
+
+extra-source-files:
+- README.md
+- CHANGELOG.md
+
+dependencies:
+- http-api-data
+- text
+
+library:
+  source-dirs: src

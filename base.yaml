@@ -1,0 +1,24 @@
+ghc-options:
+- -Wall
+- -Wcompat
+- -Wincomplete-record-updates
+- -Wincomplete-uni-patterns
+- -Wredundant-constraints
+
+default-extensions:
+- ConstraintKinds
+- DataKinds
+- FlexibleContexts
+- FlexibleInstances
+- OverloadedStrings
+- PolyKinds
+- RankNTypes
+- StandaloneDeriving
+- TypeApplications
+- TypeFamilies
+- TypeOperators
+- TypeSynonymInstances
+
+dependencies:
+- base >= 4.7 && < 5
+- extensible >= 0.6

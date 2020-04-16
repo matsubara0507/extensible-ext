@@ -1,0 +1,7 @@
+resolver: lts-15.8
+packages:
+- simple-api
+- extensible-http-api-data
+extra-deps:
+- extensible-0.8
+- membership-0

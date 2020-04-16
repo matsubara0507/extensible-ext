@@ -1,0 +1,35 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 80afac31c08a123c28752675ba24a3af1435559dcc6fbd4ecbff0674f6f18a2a
+
+name:           extensible-http-api-data
+version:        0.1.0
+author:         MATSUBARA Nobutada
+maintainer:     t12307043@gunma-u.ac.jp
+copyright:      MATSUBARA Nobutada
+license:        MIT
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    CHANGELOG.md
+
+library
+  exposed-modules:
+      Data.Extensible.FormUrlEncoded
+  other-modules:
+      Paths_extensible_http_api_data
+  hs-source-dirs:
+      src
+  default-extensions: ConstraintKinds DataKinds FlexibleContexts FlexibleInstances OverloadedStrings PolyKinds RankNTypes StandaloneDeriving TypeApplications TypeFamilies TypeOperators TypeSynonymInstances
+  ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints
+  build-depends:
+      base >=4.7 && <5
+    , extensible >=0.6
+    , http-api-data
+    , text
+  default-language: Haskell2010
