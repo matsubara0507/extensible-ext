@@ -1,6 +1,8 @@
 {-# OPTIONS_GHC -fno-warn-orphans #-}
 
-module Data.Extensible.FormUrlEncoded () where
+module Data.Extensible.FormUrlEncoded
+  ( FromFormData (..)
+  ) where
 
 import           Data.Extensible
 import           Data.Functor.Identity (Identity)

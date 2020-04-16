@@ -230,6 +230,7 @@ language_extensions:
 - ConstraintKinds
 - FlexibleContexts
 - FlexibleInstances
+- OverloadedLabels
 - OverloadedStrings
 - PolyKinds
 - RankNTypes

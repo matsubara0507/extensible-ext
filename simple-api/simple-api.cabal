@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f7480cf05be4724bde95c94766252ce258d21fce404b9756af2e891ec87a4371
+-- hash: 3e5b6ffa6a9eaa65ed2229f596c9ca21a7d257a92f7a3f61c06b0022296615bf
 
 name:           simple-api
 version:        0.1.0
@@ -27,7 +27,7 @@ library
       Paths_simple_api
   hs-source-dirs:
       src
-  default-extensions: ConstraintKinds DataKinds FlexibleContexts FlexibleInstances OverloadedStrings PolyKinds RankNTypes StandaloneDeriving TypeApplications TypeFamilies TypeOperators TypeSynonymInstances
+  default-extensions: ConstraintKinds DataKinds FlexibleContexts FlexibleInstances OverloadedLabels OverloadedStrings PolyKinds RankNTypes StandaloneDeriving TypeApplications TypeFamilies TypeOperators TypeSynonymInstances
   ghc-options: -Wall -Wcompat -Wincomplete-record-updates -Wincomplete-uni-patterns -Wredundant-constraints
   build-depends:
       aeson
